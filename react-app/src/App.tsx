@@ -1,18 +1,26 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
 import './App.scss'
-import Head from './components/home/head/Head'
 import {Routes, Route} from 'react-router-dom';
+import Layout from './components/layout/Layout';
+import Home from './components/pages/home/Home';
+import About from './components/pages/about/About';
+import Contact from './components/pages/contact/Contact';
+import Projects from './components/pages/projects/Projects';
+
 
 function App() {
 
   return (
     <>
      <Routes>
-            <Route path='/' element={<Head/>}>
-            </Route>
-        </Routes>
+        <Route path='/' element={<Layout/>}>
+          <Route index element={<Home/>}/>
+          <Route path='about' element={<About/>}/>
+          <Route path='/contact' element={<Contact/>}/>
+          <Route path='/projects' element={<Projects/>}/>
+        </Route>
+      </Routes>
     </>
   )
 }
