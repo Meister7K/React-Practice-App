@@ -1,17 +1,14 @@
-div{
+.title{
+    width: 30%;
     display:flex;
     flex-direction: row;
-    align-items: baseline;
-
-    img{
-        height: 20dvi;
-        width: 20dvi;
-    } 
 
     h1{
-       white-space: nowrap;
-       text-decoration: none;
-       font-size: 10dvi;
+        white-space: nowrap;
     }
-    
+
+    img{
+        height: 100px;
+        width: 100px;
+    } 
 }
