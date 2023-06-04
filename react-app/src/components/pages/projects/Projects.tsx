@@ -16,7 +16,7 @@ const projectList = [
       desc: `A vintage 8-bit RPG dungeon crawler where you play as 'Ruby the Rectangle' who is fighting her way through the intricate labyrinth filled with demons and dangers.`,
       inProgress: true,
       highlighted: true,
-      link: 'https://github.com/Meister7K/02-Project-Gamer4Lyfe'
+      link: 'https://dungeon-crawler-d.herokuapp.com/'
     },
     {
       id: 2,
