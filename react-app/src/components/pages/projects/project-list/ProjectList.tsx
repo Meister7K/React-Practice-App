@@ -16,7 +16,7 @@ function ProjectList(props){
                         <a href={project.link}>
                             <button className='btn'>Project Link</button>
                         </a>
-                        {project.inProgress ?  (<span>In Progress</span>):('')}
+                        {project.inProgress ?  (<span>Under Development</span>):('')}
                        
 
             
