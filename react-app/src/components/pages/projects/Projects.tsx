@@ -25,6 +25,7 @@ const projectList = [
       desc: `A random cocktail generator with a Rick and Morty theme`,
       inProgress: false,
       highlighted: false,
+      link:'https://meister7k.github.io/Rick-and-Morty-Cocktail-Generator/'
     },
     {
       id: 3,
@@ -33,6 +34,7 @@ const projectList = [
       desc: `My first portfolio attempt`,
       inProgress: false,
       highlighted: false,
+      link:'https://meister7k.github.io/02-Advanced-CSS-Challenge-Professional-Portfolio/'
     },
     {
       id: 4,
@@ -41,6 +43,7 @@ const projectList = [
       desc: `A fun little timed quiz that lets you test your knowledge of the game Elden Ring.`,
       inProgress: false,
       highlighted: false,
+      link:'https://meister7k.github.io/04-Web-APIs-Challenge-Code-Quiz/'
     },
   ];
 
