@@ -11,7 +11,7 @@ function ProjectList(props){
                 return(
                     <>{!project.highlighted ? (<li className='list-item' key={project.id}>
                         <img src={project.src}/>
-                        <h5 >{project.title}</h5>
+                        <h3 >{project.title}</h3>
                         <p>{project.desc}</p>
                         <a href={project.link} target='_blank'>
                             <button className='btn'>Project Link</button>

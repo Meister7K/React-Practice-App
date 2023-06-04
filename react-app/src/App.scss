@@ -1,3 +1,12 @@
+$primary-bkg-color:#D9D6D2;
+$secondary-bkg-color: #D9D5C5;
+$text-primary: #262125;
+$text-secondary:#483D41;
+$highlight:#302940;
+
+@import 'animate.css';
+
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -5,4 +14,28 @@
   text-align: center;
 }
 
-@import 'animate.css';
+
+*{
+  font-weight: bolder;
+
+
+  button, input{
+    background-color:transparent;
+
+    cursor: pointer;
+    &:hover{
+      transition: ease-in-out .5s;
+      filter: drop-shadow(0 0 10px $highlight) opacity(.5);
+    }
+    
+  }
+
+
+  h1,h2,h3,h4,h5{
+    color: $text-primary;
+    
+  }
+  p{
+    color: $text-secondary
+  }
+}
