@@ -1,6 +1,7 @@
 import './Contact.scss'
 import emailjs from '@emailjs/browser'
-import { useEffect, useState, useRef } from 'react'
+import { useRef } from 'react'
+
 
 function Contact(){
 
@@ -9,7 +10,7 @@ function Contact(){
     const sendEmail = (e) =>{
         e.preventDefault()
 
-        emailjs.sendform('gmail','template_yeJhzkgb', form.current, 'your-token').then(()=>{
+        emailjs.sendForm('service_9nmmdnc','template_eyvj62w', form.current, 'H_I-jy1TQTf02zNm1').then(()=>{
             alert('Message Sent!')
             window.location.reload(false)
         }, ()=>{alert('Message send failure. Try again.')})
@@ -52,10 +53,6 @@ function Contact(){
               </ul>
             </form>
           </div>
-          <div className='links'>
-            <a>add social links here</a>
-          </div>
-       
         </>
     )
 }

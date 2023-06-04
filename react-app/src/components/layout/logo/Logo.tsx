@@ -1,10 +1,10 @@
 import'./Logo.scss'
-import deer from '../../../assets/img/deer.svg'
+import logo from '../../../assets/img/hunterLogo.png'
 
 function Logo(){
     return(
         <>
-        <img className='logo' src={deer} alt='logo'/>
+        <img className='logo' src={logo} alt='logo'/>
         </>
     )
 }

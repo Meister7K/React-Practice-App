@@ -2,6 +2,7 @@ import './Layout.scss';
 import Navbar from './navbar/Navbar'
 import Logo from './logo/Logo'
 import {Outlet} from 'react-router-dom'
+import Footer from './footer/Footer'
 
 function Layout(){
     return(
@@ -15,6 +16,9 @@ function Layout(){
                 <span>top</span>
                 <Outlet/>
                 <span>bot</span>
+            </div>
+            <div className='footer'>
+                <Footer/>
             </div>
         </div>
     )

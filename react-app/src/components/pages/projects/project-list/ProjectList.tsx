@@ -13,7 +13,7 @@ function ProjectList(props){
                         <img src={project.src}/>
                         <h5 >{project.title}</h5>
                         <p>{project.desc}</p>
-                        <a href={project.link}>
+                        <a href={project.link} target='_blank'>
                             <button className='btn'>Project Link</button>
                         </a>
                         {project.inProgress ?  (<span>Under Development</span>):('')}
