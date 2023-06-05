@@ -19,6 +19,7 @@ function Contact(){
     return(
         <>
         <div className="contact-form">
+          <h2>Let's get in touch!</h2>
             <form ref={form} onSubmit={sendEmail}>
               <ul>
                 <li className="half">
@@ -45,6 +46,7 @@ function Contact(){
                     placeholder="Message"
                     name="message"
                     required
+                    rows={10}
                   ></textarea>
                 </li>
                 <li>

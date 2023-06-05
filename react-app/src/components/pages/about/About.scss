@@ -1,3 +1,12 @@
-p{
-    white-space: pre-wrap;
+.about{
+    p{
+        white-space: pre-wrap;
+    }
+    li{
+        flex-direction: row;
+    }
+    img{
+        width: 50%;
+        height: auto;
+    }
 }

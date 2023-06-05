@@ -16,7 +16,8 @@ const projectList = [
       desc: `A vintage 8-bit RPG dungeon crawler where you play as 'Ruby the Rectangle' who is fighting her way through the intricate labyrinth filled with demons and dangers.`,
       inProgress: true,
       highlighted: true,
-      link: 'https://dungeon-crawler-d.herokuapp.com/'
+      deployed: 'https://dungeon-crawler-d.herokuapp.com/',
+      repo: 'https://github.com/Meister7K/02-Project-Gamer4Lyfe'
     },
     {
       id: 2,
@@ -25,7 +26,8 @@ const projectList = [
       desc: `A random cocktail generator with a Rick and Morty theme`,
       inProgress: false,
       highlighted: false,
-      link:'https://meister7k.github.io/Rick-and-Morty-Cocktail-Generator/'
+      deployed:'https://meister7k.github.io/Rick-and-Morty-Cocktail-Generator/',
+      repo: 'https://github.com/Meister7K/Rick-and-Morty-Cocktail-Generator'
     },
     {
       id: 3,
@@ -34,7 +36,8 @@ const projectList = [
       desc: `My first portfolio attempt`,
       inProgress: false,
       highlighted: false,
-      link:'https://meister7k.github.io/02-Advanced-CSS-Challenge-Professional-Portfolio/'
+      deployed:'https://meister7k.github.io/02-Advanced-CSS-Challenge-Professional-Portfolio/',
+      repo: 'https://github.com/Meister7K/02-Advanced-CSS-Challenge-Professional-Portfolio'
     },
     {
       id: 4,
@@ -43,7 +46,8 @@ const projectList = [
       desc: `A fun little timed quiz that lets you test your knowledge of the game Elden Ring.`,
       inProgress: false,
       highlighted: false,
-      link:'https://meister7k.github.io/04-Web-APIs-Challenge-Code-Quiz/'
+      deployed:'https://meister7k.github.io/04-Web-APIs-Challenge-Code-Quiz/',
+      repo: 'https://github.com/Meister7K/04-Web-APIs-Challenge-Code-Quiz'
     },
   ];
 

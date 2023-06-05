@@ -13,9 +13,9 @@ function Layout(){
                 <Navbar/>
             </div>
             <div className='page'>
-                <span>top</span>
+                
                 <Outlet/>
-                <span>bot</span>
+              
             </div>
             <div className='footer'>
                 <Footer/>

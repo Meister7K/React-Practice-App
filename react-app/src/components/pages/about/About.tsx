@@ -12,7 +12,7 @@ function About(){
     return(
         <>
         <div className='about'>
-            <h3>About Me</h3>
+            <h2>About Me</h2>
             <img className='headshot' src={headshot} alt=''/>
             <p className='intro'>{profile.intro}</p>
             <br/>
@@ -25,7 +25,7 @@ function About(){
             <h4>Additional Links</h4>
             <ul>
                 <a href='https://umdbulldogs.com/news/2017/11/27/football-bulldog-spotlight-karl-finkel.aspx' target='_blank'><li>Football</li></a>
-                <li>github</li>
+                <li></li>
                 <li></li>
             </ul>
         </div>

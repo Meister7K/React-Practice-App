@@ -8,6 +8,7 @@ $highlight:#302940;
 
 
 #root {
+  width:100%;
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
@@ -24,7 +25,7 @@ $highlight:#302940;
 
     cursor: pointer;
     &:hover{
-      transition: ease-in-out .5s;
+      transition: all 1s ease-in-out;
       filter: drop-shadow(0 0 10px $highlight) opacity(.5);
     }
     

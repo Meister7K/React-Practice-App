@@ -1,9 +1,17 @@
-.header{
-    display: flex;
-    align-items:center;
-    white-space: nowrap;
-}
+
  .layout{
     display: flexbox;
     width: 100%;
+   
+
+    .header{
+    display: flex;
+    align-items:center;
+    white-space: nowrap;
+    }
+ }
+
+ //largest mobile width = 412px
+ @media screen  {
+    
  }
