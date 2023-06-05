@@ -1,4 +1,5 @@
 import './Projects.scss';
+import {useState} from'react'
 import LeadProject from './lead-project/LeadProject';
 import ProjectList from './project-list/ProjectList';
 import dungeon from '../../../assets/img/DungeonGame-GIF.gif';
@@ -7,6 +8,25 @@ import rick from '../../../assets/img/Mortys Book of Schwifty Ricktails.gif'
 import eldenRing from '../../../assets/img/ER quiz.png'
 
 import firstPort from '../../../assets/img/Personal Portfolio.gif'
+
+class Project{
+  constructor(title, src, desc, inProgress,highlighted,deployed,repo){
+    this._id=Project.increment()
+    this.title=title
+    this.src=srcthis.desc=desc
+    this.inProgress=inProgress
+    this.highlighted=highlighted
+    this.deployed=deployed
+    this.repo=repo
+  }
+  static increment(){
+    if(!this.onlyId) this.onlyId=1
+    else this.onlyId++
+    return this.onlyId
+  }
+}
+
+//set useState for list const[projectList,setList]=useState([])
 
 const projectList = [
     {

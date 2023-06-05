@@ -11,6 +11,17 @@ import Projects from './components/pages/projects/Projects';
 
 function App() {
 
+  const[currentPage,setPage]=useState('Home');
+
+  const renderPage=()=>{
+    if(currentPage === 'Home')return <Home/>
+    if(currentPage === 'About')return <About/>
+    if(currentPage === 'Contact')return <Contact/>
+    return <Projects/>
+  }
+
+  const handlePageChange = (page)=> setPage(page);
+
   return (
     <>
      <Routes>
